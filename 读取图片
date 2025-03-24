@@ -1,0 +1,15 @@
+# 使用openCV读取图片数据
+import cv2
+from matplotlib import pyplot as plt
+# 读取图片，转换为2维的np数组
+img=cv2.imread(r"C:/Users/Tiamo/Desktop/learn_pythorch/pythonProject5/dataset/hymenoptera_data/train/ants/0013035.jpg")
+# 显示图像
+plt.imshow(img)
+# 显示图像各个数据
+print("数据类型：{},形状：{}".format(type(img),img.shape))
+
+
+
+
+
+
